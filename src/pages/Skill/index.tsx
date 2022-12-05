@@ -16,7 +16,7 @@ class Skill extends React.Component{
             <S.SkillInfo>
                 {skillsData.map( item => {
                     return(<CardSkill 
-                        icon={<item.icon size={50} color={"#177ddc"} />}  
+                        icon={<item.icon size={item.size} color={item.color} />}  
                         title={item.title}
                     />)
                 })}

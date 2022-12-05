@@ -9,5 +9,6 @@ export const Title = styled.div`
     span{
         font-size: 25px;
         text-transform: uppercase;
+        color: white;
     };
 `

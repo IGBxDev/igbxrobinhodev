@@ -37,10 +37,11 @@ export const Photo = styled.div`
         height: 100%;
 
         border-style: solid;
-        border-color: blue;
+        border-color: #1890ff;
         border-width: 4px;
 
-        border-radius: 50%;
+
+        border-radius: 9999px;
     }
 `;
 
