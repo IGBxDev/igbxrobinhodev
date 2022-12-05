@@ -118,5 +118,4 @@ export const Network = styled.div`
             color: #165996;
         }
     }
-
 `
