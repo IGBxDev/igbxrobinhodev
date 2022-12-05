@@ -5,7 +5,7 @@ import Home from '../pages/Home'
 class Routers extends React.Component{
     render(){
         return(<Routes>
-            <Route path='/home' element={<Home />} />
+            <Route path='/' element={<Home />} />
         </Routes>)
     }
 }
