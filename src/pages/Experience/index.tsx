@@ -11,7 +11,7 @@ class Experience extends React.Component{
             <Title title={'Experiência'} />
 
             <S.Info>
-                teste
+                .
             </S.Info>
         </S.Experience>)
     }

@@ -8,6 +8,7 @@ export const Experience = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: white;
 `
 
 export const Info = styled.div`
@@ -17,4 +18,7 @@ export const Info = styled.div`
     margin: 0 auto;
 
     background:  rgb(17 24 39 / 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 `
