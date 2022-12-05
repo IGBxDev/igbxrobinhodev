@@ -10,7 +10,6 @@ export const Skills = styled.div`
 
     margin-left: 40px;
     margin-right: 40px;
-    color: white;
 
     margin: 40px 0 40px 0;
 
@@ -24,4 +23,6 @@ export const SkillInfo = styled.div`
     align-items: center;
     justify-content: center;
     align-content: center; 
+
+    color: white;
 `
