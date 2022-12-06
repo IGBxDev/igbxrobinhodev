@@ -1,6 +1,8 @@
 import React from 'react'
 
 import Title from '../../components/Title/index'
+import TimeLine from '../../components/TimeLine'
+import { experienceData } from '../../data/experience'
 
 import * as S from './styled'
 
@@ -11,14 +13,26 @@ class Experience extends React.Component{
         <S.Experience>
             <Title title={'Experiência'} />
 
-            <S.Info>
+            {/* {experienceData.map((item, index) =>{
+                return(
+                    <TimeLine key={index}
+                        date={item.date}
+                        jobTitle={item.jobTitle}
+                        company={item.company}
+                        description={item.description}
+                    />
+                )
+            })} */}
+
+             <S.Info>
                 <S.Container>
                     <S.TimeLine>
                         <ul>
                             <li>
                                 <S.TimeLineContent>
                                     <S.Date>20th may, 2010 </S.Date>
-                                    <h1>Heading 1</h1>
+                                    <h1>Full stack developer</h1>
+                                    <span>Trademaster</span>
                                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto nulla dolorem corrupti nesciunt molestias eligendi vitae ea dolore, 
                                         quis voluptatem, ullam suscipit, possimus impedit cupiditate aperiam. Ipsa in nulla veniam.
                                     </p>
@@ -45,7 +59,7 @@ class Experience extends React.Component{
                         </ul>
                     </S.TimeLine>
                 </S.Container>                
-            </S.Info>
+            </S.Info> 
         </S.Experience>)
     }
 }
