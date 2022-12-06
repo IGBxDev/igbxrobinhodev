@@ -2,13 +2,16 @@ import styled from "styled-components";
 
 export const Experience = styled.div`
     min-height: 100vh;
-    width: 100%;   
+   margin: 0 auto;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white;
+
+    width: 100%;
+    max-width: 1234px;
 `
 
 export const Info = styled.div`
@@ -32,43 +35,7 @@ export const Container = styled.div`
     justify-content: center;
     padding: 30px 0;
 
-    @media only screen and (min-width: 771px){
-        ::before{
-            height: 120%!important;            
-        }
-    }
-
-    @media only screen and (min-width: 890px){
-        ::before{
-            height: 110%!important;            
-        }
-    }
-
-    @media only screen and (min-height: 773px){
-        ::before{
-            height: 105%!important;            
-        }
-    }
-
-    @media only screen and (min-height: 810px){
-        ::before{
-            height: 100%!important;            
-        }
-    }
-
-    @media only screen and (min-height: 850px){
-        ::before{
-            height: 95%!important;            
-        }
-    }
-
-    @media only screen and (min-height: 890px){
-        ::before{
-            height: 91%!important;            
-        }
-    }
-
-
+   
     @media only screen and (min-width: 768px) {
         ::before{
             content: '';
