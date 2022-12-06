@@ -28,34 +28,18 @@ class Experience extends React.Component{
                 <S.Container>
                     <S.TimeLine>
                         <ul>
-                            <li>
-                                <S.TimeLineContent>
-                                    <S.Date>20th may, 2010 </S.Date>
-                                    <h1>Full stack developer</h1>
-                                    <span>Trademaster</span>
-                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto nulla dolorem corrupti nesciunt molestias eligendi vitae ea dolore, 
-                                        quis voluptatem, ullam suscipit, possimus impedit cupiditate aperiam. Ipsa in nulla veniam.
-                                    </p>
-                                </S.TimeLineContent>
-                            </li>
-                            <li>
-                                <S.TimeLineContent>
-                                    <S.Date>20th may, 2010 </S.Date>
-                                    <h1>Heading 2</h1>
-                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto nulla dolorem corrupti nesciunt molestias eligendi vitae ea dolore, 
-                                        quis voluptatem, ullam suscipit, possimus impedit cupiditate aperiam. Ipsa in nulla veniam.
-                                    </p>
-                                </S.TimeLineContent>
-                            </li>
-                            <li>
-                                <S.TimeLineContent>
-                                    <S.Date>20th may, 2010 </S.Date>
-                                    <h1>Heading 3</h1>
-                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto nulla dolorem corrupti nesciunt molestias eligendi vitae ea dolore, 
-                                        quis voluptatem, ullam suscipit, possimus impedit cupiditate aperiam. Ipsa in nulla veniam.
-                                    </p>
-                                </S.TimeLineContent>
-                            </li>
+                            {experienceData.map((item, index) =>{
+                                return(
+                                <li key={index}>
+                                    <S.TimeLineContent>
+                                        <S.Date>{item.date}</S.Date>
+                                        <h1>{item.jobTitle}</h1>
+                                        <span>{item.company}</span>
+                                        <p>{item.description}</p>
+                                    </S.TimeLineContent>
+                                </li>
+                                )
+                            })}
                         </ul>
                     </S.TimeLine>
                 </S.Container>                
