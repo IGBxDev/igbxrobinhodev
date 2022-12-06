@@ -4,6 +4,7 @@ import perfil from '../../assets/perfil.jpeg'
 export const AboutInfo = styled.div`
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     margin: 0 auto;
     margin-top: 80px;
@@ -12,14 +13,13 @@ export const AboutInfo = styled.div`
 
     border-radius: 10px;
 
-    margin-left: 40px;
-    margin-right: 40px;
-
     padding: 48px;
 
     color: white;
 
     background:  rgb(17 24 39 / 1);
+    
+    max-width: calc(1234px - 96px)
 `;
 
 export const Photo = styled.div`

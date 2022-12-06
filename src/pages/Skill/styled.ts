@@ -1,17 +1,16 @@
 import styled from 'styled-components'
 
 export const Skills = styled.div`
-    display:  flex;
+    display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-
     margin: 0 auto;
+
     height: auto;
 
-    margin-left: 40px;
-    margin-right: 40px;
-
     margin: 40px 0 40px 0;
+    max-width: 1234px;
 
 `
 
