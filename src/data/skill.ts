@@ -15,7 +15,6 @@ import {
 } 
 from 'react-icons/si'
 
-import { IconBaseProps } from 'react-icons/lib/esm/iconBase';
 import { IconType } from '../../node_modules/react-icons/lib'
 
 type SkillProps = {
