@@ -1,8 +1,8 @@
 import React from 'react'
 
 import Title from '../../components/Title/index'
-import TimeLineExperience from '../../components/TimeLineExperience'
-import { experienceData } from '../../data/experience'
+import TimeLineExperience from '../../components/TimeLineEducation'
+import { educationData } from '../../data/education'
 
 import * as S from './styled'
 
@@ -12,7 +12,7 @@ class Education extends React.Component{
         return(
         <S.Experience id='experience'>
             <Title title={'Educação'} />
-            <TimeLineExperience timeline={experienceData} />
+            <TimeLineExperience timeline={educationData} />
         </S.Experience>)
     }
 }
