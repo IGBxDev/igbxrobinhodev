@@ -10,7 +10,7 @@ class Skill extends React.Component{
     
     render(){
         return(
-        <S.Skills>
+        <S.Skills id='skills'>
             <Title title='Skills' />
 
             <S.SkillInfo>
@@ -21,8 +21,6 @@ class Skill extends React.Component{
                     />)
                 })}
             </S.SkillInfo>
-
-
         </S.Skills>)
     }
 }

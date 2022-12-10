@@ -6,16 +6,16 @@ import { experienceData } from '../../data/experience'
 
 import * as S from './styled'
 
-class Experience extends React.Component{
+class Education extends React.Component{
 
     render(){
         return(
         <S.Experience id='experience'>
-            <Title title={'Experiência'} />
+            <Title title={'Educação'} />
             <TimeLineExperience timeline={experienceData} />
         </S.Experience>)
     }
 }
 
 
-export default Experience
+export default Education

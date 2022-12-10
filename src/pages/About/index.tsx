@@ -16,7 +16,7 @@ class About extends React.Component{
     }
     
     render(){
-        return(<S.AboutInfo>
+        return(<S.AboutInfo id='aboutinfo'>
                 <S.Photo >
                     <img src={this.avatar} alt="avatar" />
                 </S.Photo>

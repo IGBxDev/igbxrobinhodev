@@ -19,7 +19,7 @@ export const AboutInfo = styled.div`
 
     background:  rgb(17 24 39 / 1);
     
-    max-width: calc(1234px - 96px)
+    max-width: calc(1234px - 96px);
 `;
 
 export const Photo = styled.div`
