@@ -16,7 +16,7 @@
 }
 
 .p-card{
-    background-color: rgb(19 28 45 / 1);
+    /* background-color: rgb(19 28 45 / 1); */
     color: white;
 }
 
@@ -24,6 +24,7 @@
     font-weight: 300;
     line-height: 1.6;
     letter-spacing: 1px;
+    padding: 0!important;
 }
 
 .p-card-content p{

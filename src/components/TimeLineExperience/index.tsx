@@ -32,8 +32,8 @@ const TimeLineExperience = ({timeline}: IExperienceProps) => {
 
     const customizedContent = (item: ExperienceProps) => {
         return (
-            <Card title={item.jobTitle} subTitle={item.date}>
-                { item.image && <img src={`images/product/${item.image}`} onError={(e) => <img src='https://www.primefaces.org/wp-content/uploads/2020/05/placeholder.png' />} alt={item.name} width={200} className="shadow-1" />}
+            <Card title={item.jobTitle} subTitle={item.date} header={item.company}>
+                { item.image && <img src={item.image} onError={(e) => <img src='https://www.primefaces.org/wp-content/uploads/2020/05/placeholder.png' />} alt={item.name} width={200} className="shadow-1" />}
                 <p>{item.description}</p>
             </Card>
         );

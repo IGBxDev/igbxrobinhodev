@@ -25,6 +25,7 @@
     font-weight: 300;
     line-height: 1.6;
     letter-spacing: 1px;
+    padding: 0!important;
 }
 
 .p-card-content p{
