@@ -14,9 +14,7 @@ export const Experience = styled.div`
     max-width: 1234px;
     background: rgb(17 24 39 / 1);
     border-radius: 10px;
-    padding-bottom: 50px;
-    margin-bottom: 50px;
-
+    margin-bottom: 5px;
 `
 
 // export const Info = styled.div`
