@@ -43,7 +43,9 @@ class About extends React.Component{
                 </S.Contact>                
                 <S.Network>
                     <BsGithub size={25} />
-                    <BsLinkedin size={25} />
+                    <a href="https://www.linkedin.com/in/robson-rodrigues-ribeiro/" target="_blank" rel="noopener noreferrer">
+                        <BsLinkedin size={25} />
+                    </a>
                     <BsTwitter size={25} />
                     <BsInstagram size={25} />
                     <BsFacebook size={25} />
