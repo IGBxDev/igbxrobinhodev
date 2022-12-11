@@ -10,7 +10,7 @@ class Education extends React.Component{
 
     render(){
         return(
-        <S.Experience id='experience'>
+        <S.Experience id='education'>
             <Title title={'Educação'} />
             <TimeLineExperience timeline={educationData} />
         </S.Experience>)
