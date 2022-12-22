@@ -6,6 +6,7 @@ import Skill from '../Skill'
 import Education from '../Education'
 
 import * as S from './styled'
+import Project from '../Project'
 
 class Home extends React.Component{
 
@@ -17,6 +18,7 @@ class Home extends React.Component{
                 <Skill />
                 <Experience />
                 <Education />
+                <Project />
             </S.HomeContiner>            
         </>)
     }
